@@ -15,11 +15,11 @@ This demonstrates correct implementation of:
 - Handling MST edge removal  
 - Efficient reconnection of components
 
-## Structure:
+## 1. Structure:
 <img width="1038" height="1138" alt="image" src="https://github.com/user-attachments/assets/53c770df-0648-4d8e-9978-0fe65e5c69bb" />
 
 
-## Running Tests
+## 2. Running Tests
 The project includes JUnit tests that verify:
 - MST contains exactly `V - 1` edges  
 - No cycles are formed  
@@ -27,20 +27,20 @@ The project includes JUnit tests that verify:
 - Components are detected correctly after removal  
 - Replacement edge is valid and reconnects different components
 
-## Expected output:
+## 3. Expected output:
 <img width="391" height="661" alt="image" src="https://github.com/user-attachments/assets/f5b62e22-d5b7-4abd-a58a-ef89513d4c42" />
 
 
-##  How to Run the Program
+##  4. How to Run the Program
 
-### 1. Clone the repository
+###  Clone the repository
 
 ```bash
 git clone https://github.com/Aiym1703/BONUSTASK11.git
 cd BONUSTASK11
 ```
 ###
-### 3. Run the program
+### 5. Run the program
 
 You can run the program directly using Maven:
 
@@ -48,7 +48,7 @@ You can run the program directly using Maven:
 mvn exec:java -Dexec.mainClass="org.example.app.Main"
 ```
 
-## Run tests with:
+## 6. Run tests with:
 - mvn clean test
 
 
